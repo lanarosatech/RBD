@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Base 02';
+  src: url('Base\ 02.ttf') format('truetype');
+}
+
+.navbar-logo {
+  width: 10%; /* Ajuste o tamanho conforme necessário */
+  height: auto; /* Isso mantém a proporção da imagem */
+}
+
+body {
+  padding-top: 70px; /* Para evitar que o conteúdo seja obscurecido pelo navbar */
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  text-shadow: #403f3f 5px 5px 5px;
+  font-family: 'Base 02', sans-serif;
+}
+
+.carousel-item img {
+  max-height: 450px; /* Defina a altura máxima desejada */
+  max-width: 100%; /* Garante que a largura se ajuste proporcionalmente */
+  object-fit: contain; /* Mantém a proporção original da imagem */
+}
+
+.cards-container {
+  padding: 10px;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 1px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
