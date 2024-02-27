@@ -1,123 +1,135 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RBD</title>
-    <!-- Link para o Bootstrap via CDN -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Link para o arquivo CSS externo -->
-    <link href="styles.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generacion Rebelde</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#"> <img src="logo.png" alt="Logo RBD" class="img-fluid navbar-logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                  <a class="nav-link" href="#cards-container">El Grupo</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#agenda-container">Agenda</a>
-              </li>
-            </ul>
-        </div>
+  <div class="container">
+    <a class="navbar-brand mr-auto" href="#">
+      <img src="logo.png" alt="Logo RBD" class="img-fluid navbar-logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#cards-container">El Grupo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#agenda-container">Agenda</a>
+        </li>
+      </ul>
     </div>
+  </div>
 </nav>
 
 <div class="container carrossel py-3" data-ride="carousel">
-  <h1 class="text-center mt-5 mb-4">Generacion Rebelde</h1>
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-          <div class="carousel-item active">
-              <img src="img7.jpg" class="d-block w-100" alt="Imagem 1">
-          </div>
-          <div class="carousel-item">
-              <img src="img8.jpg" class="d-block w-100" alt="Imagem 2">
-          </div>
-          <div class="carousel-item">
-              <img src="img6.jpg" class="d-block w-100" alt="Imagem 3">
-          </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img7.jpg" class="d-block w-100" alt="Imagem 1">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Generacion Rebelde</h1>
+        </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Anterior</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Próximo</span>
-      </a>
+      <div class="carousel-item">
+        <img src="img8.jpg" class="d-block w-100" alt="Imagem 2">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Generacion Rebelde</h1>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img6.jpg" class="d-block w-100" alt="Imagem 3">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Generacion Rebelde</h1>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
   </div>
 </div>
 
 <div class="container mt-5 cards-container" id="cards-container">
   <h1 class="text-center mt-5 mb-4">El Grupo</h1>
-    <div class="row">
-      <div class="col-md-4 mb-4">
-          <div class="card">
-              <img src="img1.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                  <h5 class="card-title">Anahí</h5>
-                  <p class="card-text">Talentosa y carismática actriz y cantante cautiva al público con su dulce voz y actuaciones encantadoras.</p>
-              </div>
-          </div>
-      </div>
-      <div class="col-md-4 mb-4">
-          <div class="card">
-              <img src="img2.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                  <h5 class="card-title">Christian Chávez</h5>
-                  <p class="card-text">Carismático y expresivo cantante y actor, conocido por su autenticidad que aporta a las actuaciones de RBD.</p>
-              </div>
-          </div>
-      </div>
-      <div class="col-md-4 mb-4">
-          <div class="card">
-              <img src="img3.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                  <h5 class="card-title">Christopher Uckermann</h5>
-                  <p class="card-text">Multifacético, cuyo carisma y talento como actor y cantante añaden una dimensión especial al grupo.</p>
-              </div>
-          </div>
-      </div>
-    </div>
-</div><div class="container mt-3 cards-container">
   <div class="row justify-content-center">
     <div class="col-md-4 mb-4">
-      <div class="card">
-          <img src="img4.jpg" class="card-img-top" alt="...">
+        <div class="card">
+          <img src="img1.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-              <h5 class="card-title">Dulce Maria</h5>
-              <p class="card-text">La poderosa y versátil vocalista que aporta una energía única al grupo, combinando encanto y pasión en sus presentaciones.</p>
+            <h5 class="card-title">Anahí</h5>
+            <p class="card-text">Talentosa y carismática actriz y cantante cautiva al público con su dulce voz y actuaciones encantadoras.</p>
           </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="img2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Christian Chávez</h5>
+          <p class="card-text">Carismático y expresivo cantante y actor, conocido por su autenticidad que aporta a las actuaciones de RBD.</p>
+        </div>
       </div>
     </div>
     <div class="col-md-4 mb-4">
       <div class="card">
-        <img src="img5.jpg" class="card-img-top" alt="...">
+        <img src="img3.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-            <h5 class="card-title">Maite Perroni</h5>
-            <p class="card-text"> Actriz y cantante conocida por su talento que conquista los corazones de millones de fanáticos alrededor del mundo.</p>
+          <h5 class="card-title">Christopher Uckermann</h5>
+          <p class="card-text">Multifacético, cuyo carisma y talento como actor y cantante añaden una dimensión especial al grupo.</p>
         </div>
       </div>
     </div>
   </div>
 </div>
+<div class="container mt-3 cards-container">
+  <div class="row justify-content-center">
+  <div class="col-md-4 mb-4">
+    <div class="card">
+      <img src="img4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Dulce Maria</h5>
+        <p class="card-text">La poderosa y versátil vocalista que aporta una energía única al grupo, combinando encanto y pasión en sus presentaciones.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 mb-4">
+    <div class="card">
+      <img src="img5.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Maite Perroni</h5>
+        <p class="card-text"> Actriz y cantante conocida por su talento que conquista los corazones de millones de fanáticos alrededor del mundo.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
 
-<div class="container mt-5 agenda-container" id="agenda-container">
-  <h1 class="text-center mt-5 mb-5">Agenda</h1>
-  <img src="img-agenda.png" class="img-fluid mx-auto d-block" alt="Agenda">
+<div class="container mt-3 agenda-container" id="agenda-container">
+  <h1 class="text-center mt-3 mb-3">Agenda</h1>
+  <div class="image-container" style="padding: 20px;">
+    <img src="img-agenda.jpg" class="img-fluid mx-auto d-block" alt="Agenda" width="600">
+  </div>
 </div>
 
 <footer>
-    <div class="container text-center">
-        <p>&copy; 2024 Desenvolvido por Lana Rosa.</p>
-    </div>
+  <div class="container text-center">
+    <p style="color: white;">&copy; 2024 Desenvolvido por Lana Rosa.</p>
+  </div>
 </footer>
 
 <!-- Scripts do Bootstrap  -->

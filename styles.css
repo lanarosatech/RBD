@@ -3,14 +3,21 @@
   src: url('Base\ 02.ttf') format('truetype');
 }
 
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
 .navbar-logo {
-  width: 10%; /* Ajuste o tamanho conforme necessário */
-  height: auto; /* Isso mantém a proporção da imagem */
+  width: 50px;
+  height: auto;
+  margin-right: 15px;
 }
 
 body {
-  padding-top: 70px; /* Para evitar que o conteúdo seja obscurecido pelo navbar */
+  padding-top: 70px;
   background-color: black;
+  padding-bottom: 100px;
 }
 
 h1 {
@@ -20,9 +27,9 @@ h1 {
 }
 
 .carousel-item img {
-  max-height: 450px; /* Defina a altura máxima desejada */
-  max-width: 100%; /* Garante que a largura se ajuste proporcionalmente */
-  object-fit: contain; /* Mantém a proporção original da imagem */
+  max-height: 600px;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .cards-container {
@@ -30,9 +37,7 @@ h1 {
 }
 
 footer {
-  background-color: #f8f9fa;
   padding: 1px;
-  position: fixed;
   width: 100%;
   bottom: 0;
 }
